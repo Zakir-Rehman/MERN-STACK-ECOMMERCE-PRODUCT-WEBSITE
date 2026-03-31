@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Shop</title>
+</head>
+<body class="flex flex-col justify-center items-center gap-10">
+    <h1 class="text-center font-serif uppercase text-[2rem] mt-5 font-semibold">Shop Data</h1>
+    <form action="/shopData" class="flex flex-col  w-[50%] gap-[20px]" method="post">
+        <input type="text" class="outline-1 rounded-[5px] h-[40px] outline-offset-5 w-[100%]" placeholder="Card Image URL" name="url">
+        <input type="text" class="outline-1 rounded-[5px] h-[40px] outline-offset-5 w-[100%]" placeholder="Card title" name="title">
+        <input type="text" class="outline-1 rounded-[5px] h-[40px] outline-offset-5 w-[100%]" placeholder="Card real price" name="realPrice">
+        <input type="text" class="outline-1 rounded-[5px] h-[40px] outline-offset-5 w-[100%]" placeholder="Card discount price " name="discountPrice">
+        <button class="bg-blue-600 px-[30px] py-[13px] rounded-[20px]">Add</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.card-inner {
+  position: relative;
+  top: 60px;
+}
+
+.search-box {
+  min-width: 350px;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box form {
+  justify-content: center;
+  display: flex;
+  height: 100%;
+}
+
+.search-box input {
+  width: 50%;
+  height: 100%;
+  padding: 12px 45px 12px 15px;
+  border-radius: 25px 0 0 25px;
+  border: none;
+  outline: none;
+  /* outline: 1px solid #0D6DFC; */
+  outline-offset: -1px;
+  font-size: 16px;
+  background: #ffff;
+  color: #000;
+}
+
+
+.search-box button {
+
+  /* transform: translateX(-102%); */
+  padding: 10px 15px;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+h1::selection {
+  color: rgb(243, 124, 26);
+  filter: brightness(100%);
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  
+}
+/* .poppins-black-italic {
+  -webkit-text-stroke: 2px black;
+} */
+
+.poppins-black-italic::first-letter {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.1em;
+}
